@@ -1,0 +1,221 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hello",
+          "Hi",
+          "How are you?",
+          "Good day",
+          "Greetings",
+          "What's up?",
+          "Hey"
+        ],
+        "responses": [
+          "Hello! How can I assist you?",
+          "Hi there! What can I do for you?",
+          "Hey! How can I help you today?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Catch you later",
+          "Talk to you later"
+        ],
+        "responses": [
+          "Goodbye! Have a great day.",
+          "See you later! Take care!",
+          "Bye! Let me know if you need anything else."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "I appreciate it",
+          "Thanks a lot"
+        ],
+        "responses": [
+          "You're welcome!",
+          "Anytime! Happy to help.",
+          "My pleasure!"
+        ]
+        },
+        {
+          "tag": "analyze_evidence",
+          "patterns": [
+            "How do I analyze evidence?",
+            "What tools do I need to analyze evidence?",
+            "Can you help with analyzing evidence?",
+            "I need help with evidence analysis"
+          ],
+          "responses": [
+            "To analyze evidence, start with disk imaging using tools like FTK Imager or Autopsy. Always preserve the original evidence.",
+            "You can use disk imaging tools like FTK Imager, EnCase, or dd for analysis.",
+            "For memory analysis, you can use Volatility or Rekall."
+          ]
+        },
+        {
+          "tag": "types_of_forensic_evidence",
+          "patterns": [
+            "What are the types of forensic evidence?",
+            "Tell me about forensic evidence",
+            "Different types of forensic evidence",
+            "What are the key types of forensic evidence?"
+          ],
+          "responses": [
+            "There are several types of forensic evidence: DNA Evidence, Fingerprint Analysis, Ballistic Evidence, Digital Forensics, and Toxicology.",
+            "Key types include DNA profiling, fingerprint analysis, ballistic evidence, and digital forensics.",
+            "Forensic evidence types range from DNA analysis and fingerprinting to digital forensics and toxicological reports."
+          ]
+        },
+        {
+          "tag": "dna_evidence",
+          "patterns": [
+            "What is DNA evidence?",
+            "How does DNA evidence work?",
+            "Tell me about DNA profiling",
+            "What is DNA profiling?"
+          ],
+          "responses": [
+            "DNA evidence involves the analysis of genetic material to identify individuals. It's highly accurate and used in criminal cases such as rape, murder, and theft.",
+            "DNA profiling creates a unique genetic fingerprint for identifying individuals, making it a powerful tool in forensics."
+          ]
+        },
+        {
+          "tag": "fingerprint_analysis",
+          "patterns": [
+            "How does fingerprint analysis work?",
+            "What is fingerprint analysis?",
+            "Tell me about fingerprinting in forensics"
+          ],
+          "responses": [
+            "Fingerprint analysis compares unique patterns on the ridges of fingertips. It's one of the oldest and most reliable forensic techniques.",
+            "In forensics, fingerprints are compared to known databases to match prints found at crime scenes."
+          ]
+        },
+        {
+          "tag": "ballistic_evidence",
+          "patterns": [
+            "What is ballistic evidence?",
+            "How is ballistic evidence used?",
+            "Tell me about ballistics in forensic science"
+          ],
+          "responses": [
+            "Ballistic evidence involves the study of firearms, bullets, and cartridge cases. It helps determine the type of firearm used, bullet trajectory, and distance of shots fired.",
+            "Ballistics in forensic science examines bullet trajectories, gunshot residues, and firearm mechanics."
+          ]
+        },
+        {
+          "tag": "digital_forensics",
+          "patterns": [
+            "What is digital forensics?",
+            "How does digital forensics work?",
+            "Tell me about digital forensics"
+          ],
+          "responses": [
+            "Digital forensics is the investigation and recovery of data from electronic devices like computers, mobile phones, and servers. It plays a crucial role in cybercrime investigations.",
+            "Digital forensics analyzes digital data, including recovering deleted files and tracking digital footprints to assist in solving cybercrime."
+          ]
+        },
+        {
+          "tag": "toxicology",
+          "patterns": [
+            "What is forensic toxicology?",
+            "How does toxicology work in forensics?",
+            "Tell me about forensic toxicology"
+          ],
+          "responses": [
+            "Forensic toxicology involves the analysis of bodily fluids like blood, urine, or tissue to detect the presence of drugs, alcohol, or poisons.",
+            "In toxicology, experts test for chemicals or toxins to determine causes of death or impairment in criminal cases."
+          ]
+        },
+        {
+          "tag": "forensic_investigation",
+          "patterns": [
+            "What is forensic investigation?",
+            "How do forensic investigations work?",
+            "Tell me about forensic investigation process"
+          ],
+          "responses": [
+            "Forensic investigation uses scientific methods to analyze crime scenes, collect evidence, and interpret findings to solve crimes.",
+            "In a forensic investigation, experts collect physical, digital, and biological evidence, which are analyzed to link suspects and events to criminal activities."
+          ]
+        },
+        {
+          "tag": "chain_of_custody",
+          "patterns": [
+            "What is the chain of custody?",
+            "How does chain of custody work?",
+            "Tell me about chain of custody in forensics"
+          ],
+          "responses": [
+            "The chain of custody is a process that tracks the handling of evidence from collection to its presentation in court to ensure it's not tampered with.",
+            "In forensics, maintaining the chain of custody ensures evidence integrity and prevents contamination or tampering."
+          ]
+        },
+        {
+          "tag": "recommend_tools",
+          "patterns": [
+            "Can you recommend some tools?",
+            "What forensic tools are available?",
+            "What tools should I use for forensic investigation?",
+            "What tool is best for disk imaging?"
+          ],
+          "responses": [
+            "For disk imaging, use FTK Imager, EnCase, or dd. For memory forensics, Volatility is a great option.",
+            "FTK Imager, Autopsy, EnCase, and The Sleuth Kit are widely used tools in digital forensics.",
+            "For network forensics, Wireshark and NetworkMiner are excellent choices."
+          ]
+        },
+        {
+          "tag": "generate_report",
+          "patterns": [
+            "How do I generate a report?",
+            "Can you help with report generation?",
+            "I need help with creating a forensic report",
+            "What format should I use for the forensic report?"
+          ],
+          "responses": [
+            "For forensic report generation, organize your findings and use tools like Autopsy or EnCase to structure the report.",
+            "Provide a summary of your analysis, tools used, findings, and recommendations in your forensic report.",
+            "Use a clear structure: Overview, Evidence Collection, Analysis, Findings, and Conclusion."
+          ]
+        },
+        {
+          "tag": "forensic_procedures",
+          "patterns": [
+            "What are the standard forensic procedures?",
+            "How do I preserve evidence?",
+            "What steps should I follow for disk imaging?",
+            "Can you guide me through forensic procedures?"
+          ],
+          "responses": [
+            "Ensure you use write blockers when dealing with disk imaging and always create a bit-for-bit copy of the evidence.",
+            "Follow these steps: Identify the evidence, acquire it using tools like FTK Imager, preserve the original data, analyze the copy, and document everything.",
+            "Use tools like dd or FTK Imager for disk imaging and make sure to validate the integrity with hash functions like MD5 or SHA-256."
+          ]
+        },
+        {
+          "tag": "incident_response",
+          "patterns": [
+            "What is the first step in incident response?",
+            "How do I respond to an incident?",
+            "Can you help with incident response?",
+            "What should I do during an incident?"
+          ],
+          "responses": [
+            "First, identify the incident and contain it. Then, collect evidence while preserving the scene, and perform analysis.",
+            "In incident response, ensure you contain the breach, isolate affected systems, and collect evidence while maintaining chain of custody.",
+            "The steps in incident response include Preparation, Identification, Containment, Eradication, Recovery, and Lessons Learned."
+          ]
+        }
+      ]
+    }
+    
